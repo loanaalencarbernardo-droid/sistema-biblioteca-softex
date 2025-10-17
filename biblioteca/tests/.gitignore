@@ -1,0 +1,15 @@
+# Arquivos compilados do Python
+__pycache__/
+*.pyc
+
+# Cache do pytest
+.pytest_cache/
+
+# Configurações do VSCode
+.vscode/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do sistema
+*.tmp
