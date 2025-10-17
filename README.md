@@ -1,7 +1,9 @@
 # sistema-biblioteca-softex
+
 Aplicação desenvolvida em Python para o controle de uma biblioteca, estruturada com base nos conceitos de Programação Orientada a Objetos (POO) e nas Boas Práticas de Engenharia de Software. O projeto tem como foco a organização do código, reutilização de componentes e aprimoramento do aprendizado.
 
-##  Objetivo do Projeto
+
+## Objetivo do Projeto
 
 Criar um sistema capaz de:
 
@@ -16,39 +18,38 @@ O projeto utiliza:
 - Testes automatizados com pytest
 - Estrutura de projeto limpa e bem documentada
 
-##  Estrutura do Projeto
+## Estrutura do Projeto
 
 biblioteca/
 │
 ├── src/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── utils.py
-│   │
-│   ├── models/
-│   │   ├── __init__.py
-│   │   ├── emprestimo.py
-│   │   ├── livro.py
-│   │   └── usuario.py
-│   │
-│   ├── services/
-│   │   ├── __init__.py
-│   │   ├── gerenciador_emprestimos.py
-│   │   ├── gerenciador_livros.py
-│   │   └── gerenciador_usuarios.py
-│   │
-│   └── tests/
-│       ├── __init__.py
-│       ├── test_emprestimo.py
-│       ├── test_livro.py
-│       └── test_usuario.py
+│ ├── init.py
+│ ├── main.py
+│ ├── utils.py
+│ │
+│ ├── models/
+│ │ ├── init.py
+│ │ ├── emprestimo.py
+│ │ ├── livro.py
+│ │ └── usuario.py
+│ │
+│ ├── services/
+│ │ ├── init.py
+│ │ ├── gerenciador_emprestimos.py
+│ │ ├── gerenciador_livros.py
+│ │ └── gerenciador_usuarios.py
+│ │
+│ └── tests/
+│ ├── init.py
+│ ├── test_emprestimo.py
+│ ├── test_livro.py
+│ └── test_usuario.py
 │
 ├── requirements.txt
 └── README.md
 
 
-
-##  Tecnologias e Conceitos Utilizados
+## Tecnologias e Conceitos Utilizados
 
 - Python 3
 - Programação Orientada a Objetos (POO)
@@ -57,10 +58,10 @@ biblioteca/
 - Boas práticas de documentação
 - Código limpo com estrutura simplificada tipo MVC
 
+## Criadora do Projeto
 
-##  Criadora do Projeto
-
-Loana Alencar 
-✉️ loana.alencarbernardo@hotmail.com
+    Loana Alencar
+✉️ loana.alencarbernardo@hotmail.com  
 
 💡 Este sistema foi desenvolvido como projeto didático para estudo e prática de Python e POO.
+
