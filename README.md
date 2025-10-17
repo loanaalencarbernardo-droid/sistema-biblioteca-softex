@@ -21,30 +21,31 @@ O projeto utiliza:
 biblioteca/
 │
 ├── src/
-│ ├── init.py
-│ ├── main.py
-│ ├── utils.py
-│ │
-│ ├── models/
-│ │ ├── init.py
-│ │ ├── emprestimo.py
-│ │ ├── livro.py
-│ │ └── usuario.py
-│ │
-│ ├── services/
-│ │ ├── init.py
-│ │ ├── gerenciador_emprestimos.py
-│ │ ├── gerenciador_livros.py
-│ │ └── gerenciador_usuarios.py
-│ │
-│ └── tests/
-│ ├── init.py
-│ ├── test_emprestimo.py
-│ ├── test_livro.py
-│ └── test_usuario.py
+│   ├── __init__.py
+│   ├── main.py
+│   ├── utils.py
+│   │
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── emprestimo.py
+│   │   ├── livro.py
+│   │   └── usuario.py
+│   │
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── gerenciador_emprestimos.py
+│   │   ├── gerenciador_livros.py
+│   │   └── gerenciador_usuarios.py
+│   │
+│   └── tests/
+│       ├── __init__.py
+│       ├── test_emprestimo.py
+│       ├── test_livro.py
+│       └── test_usuario.py
 │
 ├── requirements.txt
 └── README.md
+
 
 
 ##  Tecnologias e Conceitos Utilizados
